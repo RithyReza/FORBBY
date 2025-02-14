@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From Bby</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tenor-gif-embed" data-postid="11788538001405586642" data-share-method="host" data-aspect-ratio="1" data-width="100%">
+        <a href="https://tenor.com/view/no-gif-11788538001405586642">No GIF</a>
+        from 
+        <a href="https://tenor.com/search/no-gifs">No GIFs</a></div> 
+    <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+    <div class="container">
+        <h2>Hai ot dg heh ot oy tv na heh</h2>
+        <p>CHAP JOJ YES PLEAM OT OY TV NA TT HEH💖</p>
+        <div class="btn" >
+        <div class="box1"><a href="yes.html">Yes</a></div>
+        <div class="box2"><a href="no2.html" id="random">No</a></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        window.onload = function () {
+          // Check if the first page URL is already stored
+          if (!sessionStorage.getItem("firstPage")) {
+            sessionStorage.setItem("firstPage", window.location.href); // Store current URL
+          }
+      
+          // If the page is refreshed, go back to the first page
+          if (performance.getEntriesByType("navigation")[0].type === "reload") {
+            window.location.href = sessionStorage.getItem("firstPage");
+          }
+        };
+      </script>
+      
+      
+</body>
+</html>
